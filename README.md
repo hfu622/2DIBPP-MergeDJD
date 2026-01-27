@@ -1,19 +1,36 @@
 # DJD++: Improving the DJD Heuristic for the Two-Dimensional Irregular Bin Packing Problem
 
-<img width="1872" height="894" alt="7b7e566d4c5a23f9101d1bcee907adb3" src="https://github.com/user-attachments/assets/1643c2b6-b08a-434e-bade-f93a26152bd8" />
-
+![DJD++ Algorithm](https://github.com/user-attachments/assets/1643c2b6-b08a-434e-bade-f93a26152bd8)
 
 ## Introduction
 
-本项目在DJD基础，设计了一个新的算法DJD++，解决了two-dimentional irregular bin packing problem，
-适用场景：箱子是矩形的，零件为多边形，可以是凸多边形也可以是非凸多边形，但没有弧线，可用于学习、演示等用途。
+This project introduces a new algorithm, **DJD++**, which improves upon the existing DJD heuristic to solve the **Two-Dimensional Irregular Bin Packing Problem**. The problem is based on packing rectangular bins with parts that are polygons—both convex and non-convex shapes are supported. However, the shapes do not contain any curves.
 
-## How to use?
-在本项目的路径下运行
+### Applicable Scenarios:
 
-```text
+* **Bins**: Rectangular in shape.
+* **Parts**: Polygonal shapes (can be either convex or non-convex), without any curves.
+* **Use Cases**: Suitable for learning, demonstrations, and practical applications.
+
+---
+
+## How to Use?
+
+To run this project, simply execute the following command from the project directory:
+
+```bash
 java -jar target/demo-0.0.1-SNAPSHOT.jar
 ```
 
+---
+
+## System Requirements
+
+* **JDK Version**: jdk-1.8
+
+---
+
 ## Notice
-JDK VERSION:jdk-1.8
+
+* Ensure that you have **Java 1.8** installed to run this application.
+* If you encounter any issues or require further assistance, feel free to raise an issue or reach out for help.
