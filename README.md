@@ -9,7 +9,7 @@ This project introduces a new algorithm, **DJD++**, which improves upon the exis
 ### Applicable Scenarios:
 
 * **Bins**: Rectangular in shape.
-* **Pieces**: Polygonal shapes (can be either convex or non-convex), without any curves.
+* **Pieces**: Convex or non-convex polygonal shapes without any curves.
 * **Use Cases**: Suitable for learning, demonstrations, and practical applications.
 
 ---
