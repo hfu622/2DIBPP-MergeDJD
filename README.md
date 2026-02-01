@@ -65,5 +65,5 @@ The upload rules and file format specifications can be viewed by clicking the bu
 
 ## Notice
 
-* All input numbers should be **integers**. To improve accuracy, we preprocessed the data by multiplying all coordinates by a scaling factor.
+* All input numbers should be **integers**. To improve accuracy, we preprocessed the data by multiplying all coordinates by a scaling factor in experiments.
 * If the input file is **.txt**, make sure that each line starts with a **space**.
